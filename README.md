@@ -1,12 +1,12 @@
 # PRIMER PARCIAL DE SPD
-
+![](img/intro.jpg)
 ## INTEGRANTES
 - Mauricio Gabriel Harriet Thery
 - Belkis Yolanda Guanipa Lopez
 - Cheimienst Hernández Gómez
 
 ## Primera parte: Controlar un contador con botones en un programa que utiliza 2 displays de 7 segmentos en multiplexación
-
+![](img/parte1.png)
 ## 1) Descripción
 Este proyecto involucra la implementación de un contador de dos dígitos utilizando dos visualizadores de siete segmentos. El control del contador se realiza mediante tres botones: uno para incrementar el contador, otro para disminuirlo y un tercero para restablecerlo. La estructura fundamental del código comprende los siguientes elementos:
 
