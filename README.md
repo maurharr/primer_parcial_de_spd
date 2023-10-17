@@ -48,7 +48,7 @@ Se le puede agregar al proyecto un "motor de aficionado", llamado así porque es
 
 ## Tercera Parte: Implementación de un fotodiodo en el proyecto
 ![](img/parte3.png)
-A la parte 2 le agregamos un [fotodiodo](https://como-funciona.co/fotodiodo/) para que trabaje como un sensor. Un fotodiodo es un componente electrónico que se utiliza en aplicaciones relacionadas con la detección de luz y la conversión de la energía luminosa en señales eléctricas. Funciona de manera similar a un diodo convencional, pero en lugar de permitir que fluya la corriente eléctrica en una sola dirección, el fotodiodo convierte la luz incidente en corriente eléctrica.
+A la parte 2 le agregamos un [fotodiodo](https://como-funciona.co/fotodiodo/). Un fotodiodo es un componente electrónico que se utiliza en aplicaciones relacionadas con la detección de luz y la conversión de la energía luminosa en señales eléctricas. Funciona de manera similar a un diodo convencional, pero en lugar de permitir que fluya la corriente eléctrica en una sola dirección, el fotodiodo convierte la luz incidente en corriente eléctrica.
 
 ## 2) Explicación de su funcionamiento
 
