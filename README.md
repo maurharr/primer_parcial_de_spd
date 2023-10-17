@@ -25,7 +25,7 @@ Además, en términos de la electrónica utilizada, se emplea la [multiplexació
 [SPD - Primer parcial - Parte 1](https://www.tinkercad.com/things/c6Y9zx44Fnb-copy-of-primera-parte-del-examen-de-spd/editel?sharecode=_g-j-M7_DWu3wRsHQ90MPSgqWQZF7gK58weqZ-hQx6w)
 
 ## Segunda Parte: Cambio de estado por medio de un interruptor deslizante +  sensor de flexión
-![](img/part2_1.png)
+![](img/parte2.png)
 
 ## 1) Descripción
 
