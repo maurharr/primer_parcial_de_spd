@@ -1,5 +1,5 @@
 # PRIMER PARCIAL DE SPD
-![](img/275272131-7484325e-8708-4f26-8f15-d5f662a15d8a.jpg)
+![](img/intro.jpg)
 ## INTEGRANTES
 - Mauricio Gabriel Harriet Thery
 - Belkis Yolanda Guanipa Lopez
