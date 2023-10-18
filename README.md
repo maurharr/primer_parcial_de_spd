@@ -62,6 +62,7 @@ Desde su salida negativa (Cátodo) la alimentamos con 5V y desde su salida posit
 6. Radiometría y fotometría
 7. Detectores de infrarrojos (IR)
 8. Detección de radiación UV
+   
 ![](img/fotodiodo.png)
 
 ## 3) Enlace del proyecto
