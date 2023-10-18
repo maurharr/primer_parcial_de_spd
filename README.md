@@ -49,12 +49,19 @@ Se le puede agregar al proyecto un "motor de aficionado", llamado así porque es
 
 ## Tercera Parte: Implementación de un fotodiodo en el proyecto
 ![](img/parte3.png)
-A la parte 2 le agregamos un [fotodiodo](https://como-funciona.co/fotodiodo/). Un fotodiodo es un componente electrónico que se utiliza en aplicaciones relacionadas con la detección de luz y la conversión de la energía luminosa en señales eléctricas. Funciona de manera similar a un diodo convencional, pero en lugar de permitir que fluya la corriente eléctrica en una sola dirección, el fotodiodo convierte la luz incidente en corriente eléctrica.
+A la parte 2 le agregamos un [fotodiodo](https://como-funciona.co/fotodiodo/). Un fotodiodo es un dispositivo semiconductor que genera una corriente eléctrica cuando se expone a la luz. Esto se logra mediante la absorción de fotones de luz que liberan electrones en el material semiconductor. Estos electrones generan una corriente eléctrica detectable. Los fotodiodos son muy sensibles y tienen una respuesta rápida a cambios en la intensidad de la luz. Pueden estar diseñados para detectar luz en un rango específico del espectro electromagnético, como infrarrojo, ultravioleta o visible. Los fotodiodos se utilizan en aplicaciones que requieren alta sensibilidad y precisión, como en fotodetectores, comunicaciones ópticas, lectores de códigos de barras y sistemas de control automático.
 
 ## 2) Explicación de su funcionamiento
 
-Desde su salida negativa (Cátodo) la alimentamos con 5V y desde su salida positiva (Ánodo) la conectamos ,a una entrada analogica de la placa de Arduino ,y a una resistencia de 50kOhm que esta conectada a Tierra. Ahora, por medio de una variable, en este caso `lectura_luz`, tomamos un rango de todos los valores que nos va dando el sensor a medida que incrementa o disminuye la intensidad luminica, en este caso, nos entrega un rango de (49 - 1023), por lo que para saber que porcentaje de intensidad luminica es, llamamos a otra variable, en este caso es `luz` utilizando la [función map()](https://arduinofacil.com/como-funciona-la-funcion-map/#:~:text=La%20función%20map()%20de,inicio%20rango%20de%20entrada) para poner esos valores entre un rango del 0% al 100%. Como resultado, ya hemos configurado nuestro fotodiodo, un ejemplo de su aplicación seria iluminar toda una senda peatonal si la intensidad luminica del sol esta por debajo del 40%.
-
+Desde su salida negativa (Cátodo) la alimentamos con 5V y desde su salida positiva (Ánodo) la conectamos ,a una entrada analogica de la placa de Arduino ,y a una resistencia de 50kOhm que esta conectada a Tierra. Ahora, por medio de una variable, en este caso `lectura_luz`, tomamos un rango de todos los valores que nos va dando el sensor a medida que incrementa o disminuye la intensidad luminica, en este caso, nos entrega un rango de (49 - 1023), por lo que para saber que porcentaje de intensidad luminica es, llamamos a otra variable, en este caso es `luz` utilizando la [función map()](https://arduinofacil.com/como-funciona-la-funcion-map/#:~:text=La%20función%20map()%20de,inicio%20rango%20de%20entrada) para poner esos valores entre un rango del 0% al 100%. Como resultado, ya hemos configurado nuestro fotodiodo. Algunos ejemplos de uso del fotodiodo son: 
+1. Comunicaciones ópticas
+2. Lectores de códigos de barras
+3. Sensores de proximidad
+4. Sistemas de seguridad y alarmas
+5. Fotodetectores en experimentos científicos
+6. Radiometría y fotometría
+7. Detectores de infrarrojos (IR)
+8. Detección de radiación UV
 ![](img/fotodiodo.png)
 
 ## 3) Enlace del proyecto
